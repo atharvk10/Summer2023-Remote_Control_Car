@@ -3,6 +3,8 @@
 ## Description
 This project is a 4-wheeled remote-controlled car built using Arduino, eletronics, motors, servos, legos, and cardboard. It allows users to control the car with a custom designed remote controller.
 
+![IMG_8205](https://github.com/user-attachments/assets/45ecdf88-77a7-4910-8a72-6dccb186ae14)
+
 ### Key Features:
 - Remote control via wireless communication.
 - Rear Wheel Drive and Front Wheel Steering.
@@ -17,6 +19,8 @@ The car is made up of the following components:
 - **Connectivity**: NRF24L01 Transciever 
 - **Power Supply**: NiMH 12V and 9V Rechargable Battery
 
+![IMG_8210](https://github.com/user-attachments/assets/e5f3c3cb-6223-4798-b5ed-84a2ef7abd54)
+
 ## Software Overview
 The software controlling the car includes:
 - **Motor Control**: L298N Digital Pins that set direction and speed of motors.
@@ -24,5 +28,5 @@ The software controlling the car includes:
 - **Steering Control**: Standard Servo Library for Arduino
 
 ### Main Scripts:
-- **`car_control.py`**: The reciever side that maps the controller inputs to the motor PWM output and servo steering positions.
-- **`sensor_test.py`**: The transmitter for sending data packets of controller inputs to the reciever.
+- **`carRecieverCode.ino`**: The reciever side that maps the controller inputs to the motor PWM output and servo steering positions.
+- **`remoteCode.ino`**: The transmitter for sending data packets of controller inputs to the reciever.
